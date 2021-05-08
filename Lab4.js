@@ -15,7 +15,7 @@ function app(counter){
 }
 
 function view(counter){
-    var view = ('Count: ' + counter + '\n' + '\n' + '(+) (-)' + '\n'+ '\n' + '(q) for quit')
+    var view = ('Count: ' + counter + '\n' + '\n' + '(+) (-)' + '\n'+ '\n' + '(q) for quit'+'\n')
     return view
 }
 
