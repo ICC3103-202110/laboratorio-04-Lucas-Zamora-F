@@ -8,10 +8,9 @@ function app(counter){
         var msg = prompt('What would you do? ');
         if (msg === 'q')
             break
-        if (msg === '+')
+        else
             counter = update(msg, counter)
-        if (msg === '-')
-            counter = update(msg, counter)
+        
     }     
 }
 
